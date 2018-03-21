@@ -258,7 +258,7 @@ x = 7 ** 6          print (x)  # witt. fron't  inden-tation
 |Multiplication|*|x*y|
 |Division|/|x/z|
 |Modulus|%|x%a|
-|Exponent|**|a**x|
+|Exponent|\*\*|a\*\*x|
 
 ```python
 ```
@@ -274,7 +274,7 @@ x = 7 ** 6          print (x)  # witt. fron't  inden-tation
 - print (type (d/l0)) # return the type of d/l0 
 - print (type (a/b))  # return the type of a/b 
 - print (type (a/c))  # return the type of a/c 
-- print (type (b*d))  # return the type of b*d
+- print (type (b\*d))  # return the type of b\*d
 
 ```python
 ```
@@ -299,7 +299,7 @@ x = 7 ** 6          print (x)  # witt. fron't  inden-tation
 import  decimal  
 # import  the  libray  "decimal"    
 # display  2  decimal  precision
-print (round (3*1415 ,   2))   #  result  3. 14
+print (round (3.1415 ,   2))   #  result  3. 14
 print (round (9 .995 ,   2))   #  result  9. 99
 
 #call   function   "Decimal "  from lib "decimal"
@@ -489,7 +489,7 @@ if  a[0]< a[1]  and a[0]< a[2] :
 
 2/                     
         while ...：statement A        
-     将会执行A语句，直到满足while的条件。
+     只要满足while的条件，将会执行A语句。
 ```
 
 -------
@@ -497,7 +497,7 @@ if  a[0]< a[1]  and a[0]< a[2] :
 ```python
 There are many different style code for loops, We just present two common used statements.
   -     for _ in ... : statement A
-    is the most common used statement for loops, ait is combined with range(starC end, step). For e.g.,
+    is the most common used statement for loops, ait is combined with range(star, end, step). For e.g.,
   - range(0, 8, 1) gives [0, 1, 2, 3, 4, 5, 6, 7]
 while ... : statement A* will implement A until it satisfy the condition of while.
 ```
@@ -518,7 +518,7 @@ for i in range(2, 10, 3):        
 a = 0
 sumup = O
 while  a < 100 :
-    a + 1
+    a += 1
     sumup += a
     print ( sumup)
 ```
@@ -537,7 +537,7 @@ for i in range(300, 351):
         print (i)
         break
     else :
-        cantinue
+        continue
 ```
 ```python
 ```
